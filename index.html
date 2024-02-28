@@ -16,18 +16,58 @@
 
 <body>
     <div class="main-container">
-        <header></header>
+        <header>
+            <img src="./images/logo/Booki.png" width="61" height="19" alt="logo">
+            <ul>
+                <li>Hébergements</li>
+                <li>Activités</li>
+            </ul>
+        </header>
+        <nav class="research-container">
+            <div class="research-title">
+                <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
+                <p>En plein centre-ville ou en pleine nature</p>
+            </div>
+            <form action="" method="get" class="research-form">
+                <div class="input-group">
+                     <div class="input-icon">
+                         <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <input type="text" class="research-input"  name="q" placeholder="Marseille,France">
+                    <button type="submit" class="research-button">Rechercher</button>
+                 </div>
+            </form>
+            <div class="research-filters">
+                <h2>Filtres</h2>
+                <div class="bouton-lien">
+                    <a href="#" class="bouton-lien-economique">
+                        <span class="icon"><i class= "fa-solid fa-money-bill-wave"></i></span>Economique
+                    </a>
+                    <a href="#" class="bouton-lien-economique">
+                        <span class="icon"><i class= "fa-solid fa-person"></i></span>Familial
+                    </a>
+                    <a href="#" class="bouton-lien-economique">
+                        <span class="icon"><i class= "fa-solid fa-heart"></i></span>Romantique
+                    </a>
+                    <a href="#" class="bouton-lien-economique">
+                        <span class="icon"><i class= "fa-solid fa-fire"></i></span>Nos pépites
+                    </a> 
+                </div>
+                <div class="information">
+                    <div class="information-icon">
+                        <i class="fa-solid fa-info"></i>
+                    </div>
+                    <p>Plus de 500 logements sont disponibles dans cette ville</p>
+                </div>
+            </div> 
+        </nav>
         <main>
             <div class="hebergements-and-populaires">
                 <section class="hebergements">
                     <div class="hebergement-title">
                     <h2 class="section-title">Hébergements à Marseille</h2>
                     </div>
-                
-                
-                
-                    <div class="hebergements-cards">
-                        
+                    <div class="hebergements-cards">  
                         <a href="#">
                             <article class="card">
                                 <img src="./images/hebergements/fred-kleber.jpg" alt="Image de la chambre d'hôtel montrant un lit">
@@ -148,7 +188,7 @@
                             Afficher plus
                         </h3>
                     </div>
-                    </section>
+                 </section>
                 <section class="populaires">
                     <div class="populaires-title">
                         <h2 class="section-title">Les plus populaires</h2>
@@ -215,8 +255,48 @@
                     </div>
                 </section>
             </div>
+                <section class="activite">
+                    <div class="activite-title">
+                        <h2 class="section-title">Activités à Marseille</h2>
+                    </div> 
+                    <div class="activite-cards">
+                        <a href="#">
+                            <article class="card">
+                                <img src="./images/hebergements/febrian-zakaria2.jpg" alt="Image de la chambre d'hôtel montrant un lit">
+                                <div class="card-content">
+                                    <div class="card-txt">
+                                        <h3 class="card-title">Hôtel Bleu et Blanc</h3>
+                                    </div>
+                                </div>
+                            </article>
+                        </a>
+                    </div>
+                </section>
         </main>
-        <footer></footer>
+        <footer>
+            <div class="propos-footer">
+                <h3>A propos</h3>
+                <ul>
+                    <li><a href="#">Fonctionnement du site</a></li>
+                    <li><a href="#">Conditions générales</a></li>
+                    <li><a href="#">Données et confidentialité</a></li>
+                </ul>
+            </div>
+            <div class="hebergements-footer">
+                <h3>Nos hébergements</h3>
+                <ul>
+                    <li><a href="#">Charte qualité</a></li>
+                    <li><a href="#">Proposer votre hôtel</a></li>
+                </ul>
+            </div>
+            <div class="assistance-footer">
+                <h3>Assistance</h3>
+                <ul>
+                    <li><a href="#">Centre d'aide</a></li>
+                    <li><a href="#">Nous contacter</a></li>
+                </ul>
+            </div>
+        </footer>
     </div>
 </body>
 
