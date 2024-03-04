@@ -59,6 +59,10 @@ a {
     color: var(--main-bg-color)
 }
 
+a {
+    cursor: default;
+}
+
 /****** header ******/
 header {
     display: flex;
@@ -84,14 +88,13 @@ header .header-hebergements  {
 }
 
 header .header-activite  {
-    margin-right: 60px;
     padding-top: 15px;
     border-top: 2px solid transparent;
 }
 
-
 header li:hover {
     border-top-color: var(--main-color);
+    color: var(--main-color);
 }
 
 /****** nav ******/
@@ -190,6 +193,14 @@ input {
     
 }
 
+.bouton-lien-nav {
+    background-color: transparent;
+}
+
+.bouton-lien-nav:hover {
+    background-color: var(--filter-bg-color);
+}
+
 
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
@@ -210,9 +221,9 @@ input {
     width: 65%;
 }
 
-.hebergement-title {
+/*.hebergement-title {
     padding: 30px 0 30px 30px ;
- }
+ }*/
  
 .hebergements-cards .card-content {
     padding-top: 15px;
