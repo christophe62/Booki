@@ -51,6 +51,10 @@ a {
     font-size: 16px;
 }
 
+.hebergements-and-populaires p {
+    font-size: 14px;
+}
+
 .euro {
     font-weight: 700;
 }
@@ -67,7 +71,7 @@ a {
 header {
     display: flex;
     justify-content: space-between;
-    height: 80px;   
+    height: 80px;  
 }
 
 .header-img {
@@ -101,7 +105,9 @@ header li:hover {
 /*.research-filters h2{
     margin-right: 15px; 
 }*/
-
+.research-container {
+    margin: 30px 0 35px 0;
+}
 .bouton-lien-nav {
 
     margin-right: 15px;
@@ -111,6 +117,7 @@ header li:hover {
 }
 .research-filters {
     height: 50px;
+    margin: 30px 0 35px 0;
 }
 
 .research-filters h2{
@@ -121,12 +128,11 @@ input {
 }
 
 .research-form {
-    width: 380px;
-    margin-bottom: 15px;   
+    width: 380px; 
 }
 
 .research-title {
-    margin-bottom: 30px;
+    margin-bottom: 35px;
 }
 
 .research-title h2 {
@@ -177,13 +183,17 @@ input {
     align-items: center;
 }
 
+.research-filters p {
+    width: 70px;
+}
+
 .information {
     display: flex;
     align-items: center;
 }
 .information-icon {
-    width: 20px;
-    height: 20px;
+    width: 24px;
+    height: 24px;
     border: 3px solid var(--main-bg-color);
     border-radius: 50%;
     display: flex;
@@ -221,12 +231,10 @@ input {
     width: 65%;
 }
 
-/*.hebergement-title {
-    padding: 30px 0 30px 30px ;
- }*/
- 
 .hebergements-cards .card-content {
-    padding-top: 15px;
+    
+    padding: 0 10px 15px;
+    margin-top: 5px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -239,7 +247,20 @@ input {
     justify-content: space-around;
     align-content: center;
     align-items: center;
-    gap: 25px 25px;  
+    gap: 30px 30px;  
+}
+
+.hebergement-title {
+    margin: 0 0 33px 0;
+}
+
+.hebergements-cards .card-title {
+    margin: 0;
+}
+
+.hebergements-cards .card-subtitle {
+   margin: 10px 0 8px 0;
+
 }
 
 .hebergements-cards a {
@@ -247,10 +268,20 @@ input {
 }
 
 .hebergements-cards a img {
-    height: 120px;
+    height: 110px;
     width: 100%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px ;
+    display: block;
+    padding-bottom: 5px;
+}
+
+.show-more {
+    margin: 30px 0 0 0;
+}
+
+.show-more h3 {
+    margin: 0;
 }
 
 
@@ -344,8 +375,22 @@ footer {
 }
 
 .propos-footer, .hebergements-footer, .assistance-footer {
-    /*width: 33%;*/
-    flex-grow: 1;
+    padding: 20px 0 20px 20px; 
+}
+
+.hebergements-footer {
+    padding: 20px 0 20px 20px; 
+}
+
+.propos-footer h3, .hebergements-footer h3, .assistance-footer h3 {
+    margin: 0;
+} 
+footer li {
+    margin-top: 10px;
+}
+.propos-footer, .hebergements-footer, .assistance-footer {
+    width: 33%;
+    /*flex-grow: 1;*/
 }
 
 ul {
