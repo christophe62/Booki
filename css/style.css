@@ -139,10 +139,16 @@ header li:hover {
 }
 
 .research-filters {
+     display: flex;
+    align-items: center;
     height: 50px;
     margin: 30px 0 35px 0;
     font-size: 17px;
     font-weight: bold;
+}
+
+.research-filters p {
+    width: 70px;
 }
 
 .research-filters h2{
@@ -213,15 +219,6 @@ button[type="submit"] {
     color: var(--filter-bg-color);
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
-}
-
-.research-filters {
-    display: flex;
-    align-items: center;
-}
-
-.research-filters p {
-    width: 70px;
 }
 
 .information {
@@ -524,11 +521,24 @@ ul {
     .main-container {
         padding: 0;
     } 
-
+/****** header ******/
+    header {
+        flex-direction: column;
+        height: auto;
+    }
+/****** nav ******/
     .research-form {
         width:auto; 
     }
 
+    .research-filters {
+        flex-wrap: wrap;
+        height: auto;
+    
+   }
+
+
+/****** main ******/
     .hebergements-and-populaires {
         flex-direction: column-reverse;
     }  
