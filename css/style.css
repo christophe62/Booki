@@ -112,7 +112,7 @@ header li:hover {
     display: inline-block;
     margin-right: 15px;
     padding: 10px;
-    border: 3px solid var(--main-bg-color);
+    border: 2px solid var(--main-bg-color);
     border-radius: 25px;
     text-align: center;
 }
@@ -167,7 +167,7 @@ input {
 }
 
 .research-title p {
-    margin-top: 5px;
+    margin-top: 8px;
     margin-bottom: 0;
 }
 
@@ -555,6 +555,11 @@ ul {
         color: var(--main-color);
     }
 /****** nav ******/
+    .research-container {
+    margin: 30px 0 35px 0;
+    padding: 0 20px;
+    }
+
     .research-form {
         width:auto; 
     }
@@ -564,7 +569,45 @@ ul {
         height: auto; 
    }
 
+   button[type="submit"] {
+    font-weight: bold;
+    width: 50px;
+    height: 49px;
+    font-size: 0;
+    
+    }
+    
+   button[type="submit"]::before {
+        content:"\f002";
+        font-family: "Font Awesome 5 Free";
+        width: 17px;
+        height: 17px;
+        font-size: 17px;
+        color: white;
+    }
 
+    .research-button {
+        border-radius: 15px;
+    }
+    
+    .bouton-lien {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .eco ,.familial ,.romantique ,.pepites {
+        width: 162px;
+    }
+
+    .familial ,.pepites ,.eco ,.romantique  {
+        margin: 0;
+    }
+    .eco ,.romantique {
+        margin-right:  2px;
+    }
+
+
+    
+romantique
 /****** main ******/
     .hebergements-and-populaires {
         flex-direction: column-reverse;
