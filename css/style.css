@@ -270,10 +270,6 @@ button[type="submit"] {
 }
 
 
-
-
-
-
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
@@ -461,11 +457,6 @@ ul {
     margin: 0;
 }
 
-
-
-
-
-
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
@@ -526,6 +517,43 @@ ul {
         flex-direction: column;
         height: auto;
     }
+
+    .header-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 79px;
+        margin: 0;
+    }
+
+    header ul {
+        height: 36px;
+        justify-content: space-around;
+    }
+
+    header .header-hebergements  {
+        padding: 0;
+        margin: 0;
+        border-top: 0;
+        border-bottom: 2px solid transparent;
+        width: 50%;
+        text-align: center;
+    }
+    
+    header .header-activite  {
+        padding: 0;
+        margin: 0;
+        border-top: 0;
+        border-bottom: 2px solid transparent;
+        width: 50%;
+        text-align: center;
+    }
+    
+    
+    header li:hover {
+        border-bottom-color: var(--main-color) ;
+        color: var(--main-color);
+    }
 /****** nav ******/
     .research-form {
         width:auto; 
@@ -533,8 +561,7 @@ ul {
 
     .research-filters {
         flex-wrap: wrap;
-        height: auto;
-    
+        height: auto; 
    }
 
 
