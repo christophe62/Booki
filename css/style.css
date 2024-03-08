@@ -605,9 +605,6 @@ ul {
         margin-right:  2px;
     }
 
-
-    
-romantique
 /****** main ******/
     .hebergements-and-populaires {
         flex-direction: column-reverse;
@@ -623,7 +620,11 @@ romantique
 
     .hebergements-cards a, .populaires-cards a, .activite-cards a {
         width: 100%;
-    } 
+    }
+    .activite-cards {
+        row-gap: 15px;
+    }
+
     
 /****** footer ******/
     footer {
