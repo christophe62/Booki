@@ -71,7 +71,7 @@ a {
 header {
     display: flex;
     justify-content: space-between;
-    height: 80px;  
+    /*height: 80px; */ 
 }
 
 .header-img {
@@ -145,7 +145,6 @@ header li:hover {
 .research-filters {
     display: flex;
     align-items: center;
-    height: 50px;
     margin: 30px 0 35px 0;
     font-size: 17px;
     font-weight: bold;
@@ -434,8 +433,7 @@ button[type="submit"] {
 footer {
     display: flex;
     background-color: var(--main-bg-color);
-    justify-content: space-between;
-    height: 163px;   
+    justify-content: space-between; 
 }
 
 .propos-footer, .hebergements-footer, .assistance-footer {
@@ -521,7 +519,7 @@ ul {
 /****** header ******/
     header {
         flex-direction: column;
-        height: auto;
+        /*height: auto;*/
         border-bottom: 2px solid var(--main-bg-color) ;
     }
 
@@ -573,7 +571,6 @@ ul {
 
     .research-filters {
         flex-wrap: wrap;
-        height: auto; 
    }
 
    .research-input {
@@ -622,8 +619,10 @@ ul {
     .familial ,.pepites ,.eco ,.romantique  {
         margin: 0;
     }
-    .information {
-        height: 38px;
+
+    .information p {
+        max-width: calc(100% - 74px);
+        padding-left: 10px;
     }
     
 
