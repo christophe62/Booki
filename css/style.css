@@ -78,6 +78,7 @@ header {
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
 header ul {
     display: flex;
     list-style: none;
@@ -102,9 +103,6 @@ header li:hover {
 }
 
 /****** nav ******/
-/*.research-filters h2{
-    margin-right: 15px; 
-}*/
 .research-container {
     margin: 30px 0 35px 0;
 }
@@ -157,6 +155,7 @@ header li:hover {
 .research-filters h2{
     margin: 0;
 }
+
 input {
     text-align: center;
 }
@@ -228,6 +227,7 @@ button[type="submit"] {
     display: flex;
     align-items: center;
 }
+
 .information-icon {
     width: 22px;
     height: 22px;
@@ -236,8 +236,7 @@ button[type="submit"] {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 10px;
-    
+    margin-right: 10px;  
 }
 
 .bouton-lien-nav {
@@ -275,6 +274,7 @@ button[type="submit"] {
 .information-icon i {
     font-size: 10px;
 }
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
@@ -345,7 +345,6 @@ button[type="submit"] {
     margin: 0;
 }
 
-
 /****** Populaires ***********/
 .populaires {
     width: 32%;
@@ -392,7 +391,6 @@ button[type="submit"] {
 }
 
 /****** activites ******/
-
 .activite {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -418,6 +416,7 @@ button[type="submit"] {
     margin: 0;
     padding: 20px;
 }
+
 .activite a {
     width: 23%;
 }
@@ -447,12 +446,13 @@ footer {
 .propos-footer h3, .hebergements-footer h3, .assistance-footer h3 {
     margin: 0;
 } 
+
 footer li {
     margin-top: 10px;
 }
+
 .propos-footer, .hebergements-footer, .assistance-footer {
-    width: 33%;
-    
+    width: 33%;  
 }
 
 ul {
@@ -554,11 +554,11 @@ ul {
         text-align: center;
     }
     
-    
     header li:hover {
         border-bottom-color: var(--main-color) ;
         color: var(--main-color);
     }
+
 /****** nav ******/
     .research-container {
     margin: 30px 0 35px 0;
@@ -625,7 +625,6 @@ ul {
         padding-left: 10px;
     }
     
-
 /****** main ******/
     .hebergements-and-populaires {
         flex-direction: column-reverse;
@@ -655,6 +654,7 @@ ul {
     .hebergement-title {
         margin-bottom: 15px;
     }
+
     .hebergements-cards {
         row-gap: 15px;
     }
@@ -671,16 +671,13 @@ ul {
         row-gap: 15px;
         padding: 0 20px 30px 20px;
     }
-
-    
+ 
 /****** footer ******/
     footer {
         flex-direction: column;   
     }
 
     .propos-footer, .hebergements-footer, .assistance-footer {
-        /*width: 100%;*/
-        width: auto;
-        /*flex-grow: 1;*/
+        width: 100%;
     }
 }  
